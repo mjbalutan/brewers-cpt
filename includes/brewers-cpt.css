@@ -1,0 +1,38 @@
+.bcpt {
+    max-width: 907px;
+    margin: 0 auto;
+}
+
+.bcpt .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 295.66px);
+    grid-gap: 10px;
+}
+
+.bcpt .grid .grid-item {
+    background: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 20px;
+    aspect-ratio: 1;
+}
+
+.bcpt .post-container h3 {
+    font-size: 1.1em;
+    max-height: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.bcpt .post-container .post-details {
+    font-size: 0.8em;
+}
+
+.bcpt .single h3 {
+    margin-bottom: 50px;
+}
+
+.bcpt .single table {
+    font-size: 0.8em;
+}
